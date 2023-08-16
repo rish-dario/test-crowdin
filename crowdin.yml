@@ -1,5 +1,5 @@
 files:
-  - source: src/assests/lang/*.json
+  - source: '*.json'
     translation: test.json
 targets:
   - name: test
