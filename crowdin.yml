@@ -1,4 +1,12 @@
 files:
   - source: '**/en_US.json'
     translation: /%original_path%/%locale_with_underscore%.%file_extension%
-    update_option: 'update_as_unapproved'
+    update_option: update_as_unapproved
+targets:
+  - name: test
+    sources:
+      - src/assests/lang /*.json
+    file: /%original_path%/%locale_with_underscore%.xliff
+    format: xliff
+    labels:
+      - translatable
