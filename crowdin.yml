@@ -1,4 +1,6 @@
-files: []
+files:
+  - source: src/assests/lang/*.json
+    translation: test.json
 targets:
   - name: test
     sources:
